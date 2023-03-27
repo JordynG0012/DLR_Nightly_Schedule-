@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*
+   Columns Style Sheet
+   Author: Jordyn 
+   Date: 3/21/2023  
+
+   Filename: dlr_columns.css
+
+*/
+
+/* Column Styles */
+@media only screen and (min-width: 641px) {
+  article{
+      column-count: 2;
+      column-gap: 30px;
+      column-rule: 2px dotted grey;
+      widows: 3;
+      orphans: 3;
+   }
+
+   article h1 {
+      column-span: all;
+      text-align: center;
+   }
+}
